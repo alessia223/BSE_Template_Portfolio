@@ -15,7 +15,7 @@ My final milestone is
 [![Final Milestone](){:target="_blank" rel="noopener"}
 
 # Second Milestone
-My second milestone was building the chassis of my gesture remote car. I also placed the motor driver on top of the chassis and connected my accelerometer to the esp that was also connected to my motor driver. Now I can 
+My second milestone was building the chassis of my gesture remote car. I also placed the motor driver on top of the chassis and connected my accelerometer to the esp that was also connected to my motor driver. Instead of using three different states to make the car move either forward, backward or stay still, now I use the accelerometer to change direction. I use the accelerometer by identifiying the angles at which my hand is, which has the accelerometer on top of it. Based on these angles, I coded it so that if I change the direction of my hand more forward or backward, then depending on the angle, then it'll move the car forward and backward. I also coded it so that in my void loop function I made all my codes for the angles to be after "if" and "else if" statements. To move the car left or right I made both sets of wheels on either side move in opposite directions. For example to turn left I made the left side tires move backwards at a speed of 220 and made the right side of the wheels move forward at a speed of 230. To turn right I made the right side tires move backwards at a speed of 220 and made the left side of the wheels move forward at a speed of 230. This creates a sort of drift motion with the sheels
 
 [![Third Milestone](){:target="_blank" rel="noopener"}
 # First Milestone=
