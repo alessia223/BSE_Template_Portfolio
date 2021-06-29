@@ -8,9 +8,9 @@ This will serve as a brief description of your project. Limit this to three sent
 
 ![Headstone Image](images/internet.jpg) 
 
-[comment]: <<HTML>
+[comment]: <> (<HTML>
 <img src="images/internet.jpg" width=300 align=left>
-</HTML>>
+</HTML>)
    
 # Final Milestone
 My final milestone is finishing the project of creating the gesture remote car and having communication of two different esp32s.
