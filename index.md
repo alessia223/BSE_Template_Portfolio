@@ -8,7 +8,7 @@ This will serve as a brief description of your project. Limit this to three sent
 
 ![Headstone Image](images/internet.jpg) 
 
-[comment]: <> (<HTML>
+[//]: <> (<HTML>
 <img src="images/internet.jpg" width=300 align=left>
 </HTML>)
    
