@@ -10,7 +10,7 @@ This will serve as a brief description of your project. Limit this to three sent
 ![Name of Image]()
   
 # Final Milestone
-My final milestone is 
+My final milestone is finishing the project of creating the gesture remote car and having communication of two different esp32s.
 
 [![Final Milestone](){:target="_blank" rel="noopener"}
 
