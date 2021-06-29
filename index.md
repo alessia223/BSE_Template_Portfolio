@@ -6,10 +6,10 @@ This will serve as a brief description of your project. Limit this to three sent
 |:--:|:--:|:--:|:--:|
 | Alessia | Presentation High School | Mechanical Engineering | Incoming Senior
 
-![Headstone Image](Images1/carPicture.jpg)
+![Headstone Image](images/carPicture.jpg)
 
 <HTML>
-<img src="Images1/carPicture.jpg" width=300 align=left>
+<img src="images/carPicture.jpg" width=300 align=left>
 </HTML>
    
 # Final Milestone
