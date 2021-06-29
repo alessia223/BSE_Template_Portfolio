@@ -6,7 +6,7 @@ This will serve as a brief description of your project. Limit this to three sent
 |:--:|:--:|:--:|:--:|
 | Alessia | Presentation High School | Mechanical Engineering | Incoming Senior
 
-![Headstone Image](images/internet.jpg) 
+![Headstone Image](images/carPicture.jpg) 
    
 # Final Milestone
 My final milestone is finishing the project of creating the gesture remote car and having communication of two different esp32s.
