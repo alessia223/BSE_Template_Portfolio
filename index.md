@@ -6,7 +6,7 @@ This will serve as a brief description of your project. Limit this to three sent
 |:--:|:--:|:--:|:--:|
 | Alessia | Presentation High School | Mechanical Engineering | Incoming Senior
 
-![Headstone Image](images/internet.jpg)
+![Headstone Image](images/internet.jpg) 
 
 <HTML>
 <img src="images/internet.jpg" width=300 align=left>
