@@ -6,7 +6,7 @@ This will serve as a brief description of your project. Limit this to three sent
 |:--:|:--:|:--:|:--:|
 | Alessia | Presentation High School | Mechanical Engineering | Incoming Senior
 
-![Headstone Image](images1/car picture.jpg)
+![Headstone Image](Images1/car picture.jpg)
 ![Name of Image]()
   
 # Final Milestone
