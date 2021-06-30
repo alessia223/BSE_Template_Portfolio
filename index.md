@@ -38,7 +38,7 @@ My first milestone was controlling the motor driver through the e sp32 serial mo
 <img src="images/MotorVoidFunction.png" width=250 align=left>
 </HTML>
 <HTML>
-<img src="images/MotorVoidFunction2.png" width=350 align=right>
+<img src="images/MotorVoidFunction2.png" width=400 align=right>
 </HTML>
 I used the Arduino software to code three different states for the motor driver: forward, backward, and still, which controlled the state at which my motors moved. To code these three different states, I coded three different void functions for forward, backward, and stil. I can change the state of the motors by having the two input pins on each motor be either HIGH or LOW. There are two input pins on the motor driver for each motor that control the rotation direction of each motor. Having both inputs be either HIGH or LOW change Depending on which motor pin is HIGH or LOW, would control the motor to go forward, backward, or to stay still.
 
