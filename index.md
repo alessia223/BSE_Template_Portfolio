@@ -7,7 +7,7 @@ I am working on a gesture remote robot car where I can control the direction and
 
 
 
-![Headstone Image](images/CarPicture.HEIC) 
+![Headstone Image](images/CarPicture.png) 
    
 # Final Milestone
 My final milestone is finishing the project of creating the gesture remote car and having communication of two different esp32s. I connected my first esp32 to the motor driver and my second esp32 to my accelerometer. After this I used the ESP-NOW One-way Point to Point Communication between my two esp32s. The ESP-NOW is a wireless communication between one or more ESPs. Having a One-way Point to Point Communication allows me to have one ESP32 be the "sender" and the other be the "receiver". The "sender", my accelerometer, sends the values of the angles made from the movement of the accelerometer to the ESP32 that is connected to the motor driver. 
