@@ -1,10 +1,11 @@
 ﻿# Gesture Remote Robot Car
-I am working on a gesture remote robot car where I can control the 
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
+I am working on a gesture remote robot car where I can control the direction and speed of a robot car using communication between two different ESP32s. I communicate between these two ESP32s that are connected to my accelerometer and motor driver to send the angels of the accelerometer to the motor driver. Different angles from the accelerometer determine whether the car is moving forward, backward, left, or right. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Alessia | Presentation High School | Mechanical Engineering | Incoming Senior
+
+
 
 ![Headstone Image](images/carPicture.png) 
    
