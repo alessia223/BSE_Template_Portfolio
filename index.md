@@ -32,6 +32,8 @@ My second milestone was building the chassis of my gesture remote car. I also pl
 
 To move the car left or right I made both sets of wheels on either side move in opposite directions. For example to turn left I made the left side tires move backwards at a speed of 220 and made the right side of the wheels move forward at a speed of 230. To turn right I made the right side tires move backwards at a speed of 220 and made the left side of the wheels move forward at a speed of 230. This creates a sort of drift motion with the wheels when turning. Also there are two input pins on each motor so for when I want to make the car change direction I change one side of the input pins to go forward and the other backward. Then I mdae the car move at a constant speed of 225, unless I want the car to move left or right. When making the car move left or right then I make the wheels moving forward to be faster than those that are moving backward.
 
+<br>
+
 [![Alessia Milestone 2](https://res.cloudinary.com/marcomontalbano/image/upload/v1624908686/video_to_markdown/images/youtube--eXkCdn8ocRE-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=eXkCdn8ocRE "Alessia Milestone 2"){:target="_blank" rel="noopener"}
 
 
