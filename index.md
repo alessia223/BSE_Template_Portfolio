@@ -26,11 +26,13 @@ I created two different Arduino codes for each of the two ESP32s used for my ges
 # Second Milestone
 My second milestone was building the chassis of my gesture remote car. I also placed the motor driver on top of the chassis and connected my accelerometer to the esp that was also connected to my motor driver. Instead of using three different states to make the car move either forward, backward or stay still, now I use the accelerometer to change direction. An accelerometer identifies the force of gravity in all three axis: x-axis, y-axis, and z-axis. The sensors measure the opposite force of gravity in the accelerometer and the output of the sensors are based on the direction of the force of gravity. The total length of the gravitational vector can be found using the pythagorean theorem with the sensor's output. I use the accelerometer by identifiying the angles at which my hand is, which has the accelerometer on top of it. Based on these angles, I coded it so that if I change the direction of my hand more forward or backward, then depending on the angle, then it'll move the car forward and backward. Along with the previous void functions I have fo rthe motor driver, I added two new void funtions: void left and void right. In my void loop functions I made all my codes for the angles to be after "if" and "else if" statements.
 
-<HTML>
-<img src="images/Left&Right.png" width=250 align=left> &nbsp; &nbsp;
+
+HTML>
+
+ <img src="images/Left&Right.png" width=300 align=left style="float:left; padding-right:10px">  To move the car left or right I made both sets of wheels on either side move in opposite directions. For example to turn left I made the left side tires move backwards at a speed of 220 and made the right side of the wheels move forward at a speed of 240. To turn right I made the right side tires move backwards at a speed of 220 and made the left side of the wheels move forward at a speed of 240. This creates a sort of drift motion with the wheels when turning. Also there are two input pins on each motor so for when I want to make the car change direction I change one side of the input pins to go forward and the other backward. Then I made the car move at a constant speed of 225, unless I want the car to move left or right. When making the car move left or right then I make the wheels moving forward to be faster than those that are moving backward. In the 
+
 </HTML>
 
-To move the car left or right I made both sets of wheels on either side move in opposite directions. For example to turn left I made the left side tires move backwards at a speed of 220 and made the right side of the wheels move forward at a speed of 240. To turn right I made the right side tires move backwards at a speed of 220 and made the left side of the wheels move forward at a speed of 240. This creates a sort of drift motion with the wheels when turning. Also there are two input pins on each motor so for when I want to make the car change direction I change one side of the input pins to go forward and the other backward. Then I made the car move at a constant speed of 225, unless I want the car to move left or right. When making the car move left or right then I make the wheels moving forward to be faster than those that are moving backward. In the 
 
 <br>
 
