@@ -1,5 +1,5 @@
 ﻿# Gesture Remote Robot Car
-I am working on a gesture remote robot car where I can control the direction and speed of a robot car using communication between two different ESP32s. I communicate between these two ESP32s that are connected to my accelerometer and motor driver to send the angels of the accelerometer to the motor driver. Different angles from the accelerometer determine whether the car is moving forward, backward, left, or right. 
+I am working on a gesture remote robot car where I can control the direction and speed of a robot car using communication between two different ESP32s. I communicate between these two ESP32s that are connected to my accelerometer and motor driver to send the angels of the accelerometer to the motor driver. Different angles from the accelerometer determine whether the car is moving forward, backward, left, or right and all of this data will be sent to motor driver making it move. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
