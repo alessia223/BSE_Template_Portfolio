@@ -48,7 +48,7 @@ I used the Arduino software to code three different states for the motor driver:
 <HTML>
 <img src="images/MotorSerial.png" width=250 align=left> <br> </br> I also used a pwm signal to keep the motors at a steady state when they are on. I change the state of the motors by inputing 2 different numbers, seperated by a space, into the serial monitor. The three states that I created are: forward, backward, and still. Each direction is based on The first number I put into the serial monitor is either a 1, 2, or 3 depending on what state I want the motors to be in. The second number I use is to represent the speed between 0 to 255 of moving the information from the PC to the esp32. After putting these values into the serial monitor, then it writes back either "Motor Stop", "Motor Forward", or "Motor Backward".
 </HTML>
-
+<br> </br>
 <p float="right">
   <img src="images/MotorStop.png" width="150" />
   <img src="images/MotorForward.png" width="175" /> 
