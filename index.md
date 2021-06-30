@@ -35,7 +35,7 @@ My first milestone was controlling the motor driver through the e sp32 serial mo
 
 
 <HTML>
-<img src="images/MotorVoidFunction.png" width=230 align=left>\
+<img src="images/MotorVoidFunction.png" width=230 align=left>
 <img src="images/MotorVoidFunction2.png" width=230 align=left>
 </HTML>
 
