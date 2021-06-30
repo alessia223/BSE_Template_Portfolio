@@ -30,8 +30,9 @@ My second milestone was building the chassis of my gesture remote car. I also pl
  
 My first milestone was controlling the motor driver through the e sp32 serial monitor. A motor driver can control the speed of two motors for my gesutre remote car by controlling the PWM output. PWM is a pulse width modulation, which uses digital signals to emulate analog signals by turning the voltage on and off at a fast constant rate. In the motor driver there is also a H-Bridge that can control the direction of the current flow, which changes the rotation direction of the motor. Using this H-Bridge allows the car to move forward or backward. I first wired up my esp32 to connect with two motors, an external power source, and a motor driver. 
 
-![VoidFunctions](images/MotorVoidFunction.png)
-![VoidFunctions](images/MotorVoidFunction2.png)
+![VoidFunctions](images/MotorVoidFunction.png)        ![VoidFunctions](images/MotorVoidFunction2.png)
+
+
 I used the Arduino software to code three different states for the motor driver: forward, backward, and still, which controlled the state at which my motors moved. To code these three different states, I coded three different void functions for forward, backward, and stil. I can change the state of the motors by having the two input pins on each motor be either HIGH or LOW. There are two input pins on the motor driver for each motor that control the rotation direction of each motor. Having both inputs be either HIGH or LOW change Depending on which motor pin is HIGH or LOW, would control the motor to go forward, backward, or to stay still.
 
 I also used a pwm signal to keep the motors at a steady state when they are on. When I input 2 different numbers, seperated by a space, into the serial monitor I am able to control the direction of the motors using the motor driver. The first number I put into the serial monitor is either a 1, 2, or 3 depending on what state I want the motors to be in. THe second number I use is to represent the speed between 0 to 255 of moving the information from the PC to the esp32.  
