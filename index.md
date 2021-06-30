@@ -31,10 +31,10 @@ My second milestone was building the chassis of my gesture remote car. I also pl
 My first milestone was controlling the motor driver through the e sp32 serial monitor. A motor driver can control the speed of two motors for my gesutre remote car by controlling the PWM output. PWM is a pulse width modulation, which uses digital signals to emulate analog signals by turning the voltage on and off at a fast constant rate. In the motor driver there is also a H-Bridge that can control the direction of the current flow, which changes the rotation direction of the motor. Using this H-Bridge allows the car to move forward or backward. I first wired up my esp32 to connect with two motors, an external power source, and a motor driver. 
 
 <HTML>
-<img src="images/MotorVoidFunction.png" width=300 align=left>
+<img src="images/MotorVoidFunction.png" width=300>
 </HTML>
 <HTML>
-<img src="images/MotorVoidFunction2.png" width=300 align=right>
+<img src="images/MotorVoidFunction2.png" width=300 >
 </HTML>
 
 
