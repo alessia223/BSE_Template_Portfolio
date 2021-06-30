@@ -28,9 +28,7 @@ My second milestone was building the chassis of my gesture remote car. I also pl
 
 
 HTML>
-
  <img src="images/Left&Right.png" width=300 align=left style="float:left; padding-right:10px">  To move the car left or right I made both sets of wheels on either side move in opposite directions. For example to turn left I made the left side tires move backwards at a speed of 220 and made the right side of the wheels move forward at a speed of 240. To turn right I made the right side tires move backwards at a speed of 220 and made the left side of the wheels move forward at a speed of 240. This creates a sort of drift motion with the wheels when turning. Also there are two input pins on each motor so for when I want to make the car change direction I change one side of the input pins to go forward and the other backward. Then I made the car move at a constant speed of 225, unless I want the car to move left or right. When making the car move left or right then I make the wheels moving forward to be faster than those that are moving backward. In the 
-
 </HTML>
 
 
@@ -44,26 +42,19 @@ HTML>
 My first milestone was controlling the motor driver through the e sp32 serial monitor. A motor driver can control the speed of two motors for my gesutre remote car by controlling the PWM output. PWM is a pulse width modulation, which uses digital signals to emulate analog signals by turning the voltage on and off at a fast constant rate. In the motor driver there is also a H-Bridge that can control the direction of the current flow, which changes the rotation direction of the motor. Using this H-Bridge allows the car to move forward or backward. I first wired up my esp32 to connect with two motors, an external power source, and a motor driver. 
 
 
-<HTML>
-<img src="images/MotorVoidFunction.png" width=230 align=left>&nbsp;&nbsp;&nbsp;
-<img src="images/MotorVoidFunction2.png" width=230 align=left>&nbsp;&nbsp;&nbsp;
-</HTML>
-
 HTML>
-
  <img src="images/MotorVoidFunction.png" width=300 align=left style="float:left; padding-right:10px">  I used the Arduino software to code three different states for the motor driver: forward, backward, and still, which controlled the state at which my motors moved. To code these three different states, I coded three different void functions for forward, backward, and stil. I can change the state of the motors by having the two input pins on each motor be either HIGH or LOW. There are two input pins on the motor driver for each motor that control the rotation direction of each motor. Having both inputs be either HIGH or LOW change Depending on which motor pin is HIGH or LOW, would control the motor to go forward, backward, or to stay still. 
  <img src="images/MotorVoidFunction2.png" width=300 align=left style="float:left; padding-right:10px">
-
 </HTML>
 
 
 
 <br>
 
-<HTML>
-<img src="images/MotorSerial.png" width=250 align=left> &nbsp; 
+HTML>
+ <img src="images/MotorSerial.png" width=300 align=left style="float:left; padding-right:10px">  I also used a pwm signal to keep the motors at a steady state when they are on. I change the state of the motors by inputing 2 different numbers, seperated by a space, into the serial monitor. The three states that I created are: forward, backward, and still. Each direction is based on The first number I put into the serial monitor is either a 1, 2, or 3 depending on what state I want the motors to be in. The second number I use is to represent the speed between 0 to 255 of moving the information from the PC to the esp32. After putting these values into the serial monitor, then it writes back either "Motor Stop", "Motor Forward", or "Motor Backward". 
 </HTML>
-I also used a pwm signal to keep the motors at a steady state when they are on. I change the state of the motors by inputing 2 different numbers, seperated by a space, into the serial monitor. The three states that I created are: forward, backward, and still. Each direction is based on The first number I put into the serial monitor is either a 1, 2, or 3 depending on what state I want the motors to be in. The second number I use is to represent the speed between 0 to 255 of moving the information from the PC to the esp32. After putting these values into the serial monitor, then it writes back either "Motor Stop", "Motor Forward", or "Motor Backward".
+
 <br> 
 
 <p float="center">
