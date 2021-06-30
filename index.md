@@ -17,7 +17,7 @@ My final milestone is finishing the project of creating the gesture remote car a
   <img width="800" src="images/MACstructpic.png">
 </p>
 
-I am able to communicate between the two ESP32s by adding the MAC address of the receiver to both of the codes as well as creating a struct continaing the float roll value, float pitch value, and the bool sent. 
+I created two different Arduino codes for each of the two ESP32s used for my gesture remote robot car. The sender code is connected to the accelerometer and my receiver code is connected to the motor driver. I am able to communicate between the two ESP32s by adding the MAC address of the receiver to both of the codes as well as creating a struct continaing the float roll value, float pitch value, and the bool sent. Having the MAC address of the receiver in both codes makes sure that the accelerometer ESP32 sends the information to the right ESP32, which is connected to the motor driver. 
 
 
 [![Final Milestone](){:target="_blank" rel="noopener"}
@@ -46,7 +46,7 @@ I used the Arduino software to code three different states for the motor driver:
 </br>
 
 <HTML>
-<img src="images/MotorSerial.png" width=250 align=left> I also used a pwm signal to keep the motors at a steady state when they are on. I change the state of the motors by inputing 2 different numbers, seperated by a space, into the serial monitor. The three states that I created are: forward, backward, and still. Each direction is based on The first number I put into the serial monitor is either a 1, 2, or 3 depending on what state I want the motors to be in. The second number I use is to represent the speed between 0 to 255 of moving the information from the PC to the esp32. After putting these values into the serial monitor, then it writes back either "Motor Stop", "Motor Forward", or "Motor Backward".
+<img src="images/MotorSerial.png" width=250 align=left> <br> </br> I also used a pwm signal to keep the motors at a steady state when they are on. I change the state of the motors by inputing 2 different numbers, seperated by a space, into the serial monitor. The three states that I created are: forward, backward, and still. Each direction is based on The first number I put into the serial monitor is either a 1, 2, or 3 depending on what state I want the motors to be in. The second number I use is to represent the speed between 0 to 255 of moving the information from the PC to the esp32. After putting these values into the serial monitor, then it writes back either "Motor Stop", "Motor Forward", or "Motor Backward".
 </HTML>
 
 <p float="right">
