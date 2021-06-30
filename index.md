@@ -14,8 +14,7 @@ I am working on a gesture remote robot car where I can control the direction and
 My final milestone is finishing the project of creating the gesture remote car and having communication of two different esp32s. I connected my first esp32 to the motor driver and my second esp32 to my accelerometer. After this I used the ESP-NOW One-way Point to Point Communication between my two esp32s. The ESP-NOW is a wireless communication between one or more ESPs. Having a One-way Point to Point Communication allows me to have one ESP32 be the "sender" and the other be the "receiver". The "sender", my accelerometer, sends the values of the angles made from the movement of the accelerometer to the ESP32 that is connected to the motor driver. The motor driver is ziptied ontop of my remote car and the accelerometer is velcroed to a glove that I made. With the accelerometer velcroed to my glove it can sense the angles that are created when I move my hand and send those values to the other ESP32 connected to the motor driver. The motor driver will then change the direction of the motors depending on the angles from the accelerometer.
 
 
-![MACstruct Image](images/MACstructpic.png)
-<img src="images/MACstructpic.png" width=400>
+<img src="images/MACstructpic.png" width=500>
 
 I am able to communicate between the two ESP32s by adding the MAC address of the receiver to both of the codes as well as creating a struct continaing the float roll value, float pitch value, and the bool sent. 
 
