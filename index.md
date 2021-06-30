@@ -63,7 +63,7 @@ My first milestone was controlling the motor driver through the e sp32 serial mo
 <p float="left">
   <img src="images/MotorStop.png" width="150" />&nbsp;&nbsp;
   <img src="images/MotorForward.png" width="168" /> &nbsp;&nbsp;
-  <img src="images/MotorBackward.png" width="185" />&nbsp;&nbsp;
+  <img src="images/MotorBackward.png" width="180" />&nbsp;&nbsp;
 </p>
  
 
