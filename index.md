@@ -50,9 +50,9 @@ I used the Arduino software to code three different states for the motor driver:
 </HTML>
 
 <p float="left">
-  <img src="images/MotorStop.png" width="100" />
-  <img src="images/MotorForwardimg2.png" width="100" /> 
-  <img src="images/MotorBackward.png" width="100" />
+  <img src="images/MotorStop.png" width="200" />
+  <img src="images/MotorForward.png" width="200" /> 
+  <img src="images/MotorBackward.png" width="200" />
 </p>
  
 
