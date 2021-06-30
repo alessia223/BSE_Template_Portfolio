@@ -35,7 +35,11 @@ My first milestone was controlling the motor driver through the e sp32 serial mo
 
 I used the Arduino software to code three different states for the motor driver: forward, backward, and still, which controlled the state at which my motors moved. To code these three different states, I coded three different void functions for forward, backward, and stil. I can change the state of the motors by having the two input pins on each motor be either HIGH or LOW. There are two input pins on the motor driver for each motor that control the rotation direction of each motor. Having both inputs be either HIGH or LOW change Depending on which motor pin is HIGH or LOW, would control the motor to go forward, backward, or to stay still.
 
-I also used a pwm signal to keep the motors at a steady state when they are on. When I input 2 different numbers, seperated by a space, into the serial monitor I am able to control the direction of the motors using the motor driver. The first number I put into the serial monitor is either a 1, 2, or 3 depending on what state I want the motors to be in. THe second number I use is to represent the speed between 0 to 255 of moving the information from the PC to the esp32.  
+
+![VoidFunctions](images/MotorSerial.png)
+
+
+I also used a pwm signal to keep the motors at a steady state when they are on. I change the state of the motors by inputing 2 different numbers, seperated by a space, into the serial monitor. The three states that I created are: forward, backward, and still. Each direction is based on The first number I put into the serial monitor is either a 1, 2, or 3 depending on what state I want the motors to be in. The second number I use is to represent the speed between 0 to 255 of moving the information from the PC to the esp32.  
 
 [![Alessia Milestone 1](https://res.cloudinary.com/marcomontalbano/image/upload/v1624740106/video_to_markdown/images/youtube--EvijZCizwVY-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/EvijZCizwVY "Alessia Milestone 1"){:target="_blank" rel="noopener"}
 
