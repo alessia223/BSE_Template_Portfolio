@@ -20,7 +20,7 @@ My final milestone is finishing the project of creating the gesture remote car a
 I created two different Arduino codes for each of the two ESP32s used for my gesture remote robot car. The sender code is connected to the accelerometer and my receiver code is connected to the motor driver. I am able to communicate between the two ESP32s by adding the MAC address of the receiver to both of the codes as well as creating a struct continaing the float roll value, float pitch value, and the bool sent. Having the MAC address of the receiver in both codes makes sure that the accelerometer ESP32 sends the information to the right ESP32, which is connected to the motor driver. 
 
 
-[![Final Milestone](){:target="_blank" rel="noopener"}
+[![Alessia Final Milestone](https://res.cloudinary.com/marcomontalbano/image/upload/v1625177124/video_to_markdown/images/youtube--DHPlBAxwxnk-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/DHPlBAxwxnk "Alessia Final Milestone"){:target="_blank" rel="noopener"}
 
 
 # Second Milestone
